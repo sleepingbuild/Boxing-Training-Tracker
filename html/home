@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Training Tracker</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Boxing Tracker</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="training.html">Training </a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">  
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>TRACK YOUR <span>BOXING TRAINING</span></h1>
+                <p>
+                    Log your training sessions, track intensity, manage rounds,
+                    and build discipline like a real boxer. 
+                </p>
+                <div class="hero-buttons">
+                    <a href="training.html" class="btn btn-primary">Add Session</a>
+                    <a href="statistics.html" class="btn btn-outline">View Statistics</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/BoxingIcon.jpg" alt="Boxing Training"/>
+        </div>
+    </section>
+    <section class="features">
+        <h2 class="features-title">Main Features</h2>
+        <p class="features-subtitle">
+            Everything you need to track your boxing training and improve your performance.
+        </p>
+        <div class="features-container">
+            <div class="features-card">
+                <h3>Training Sessions</h3>
+                <p>Save every training session  with date,and intensity</p>
+            </div>
+            <div class="features-card">
+                <h3>Round Management</h3>
+                <p>Manage your rounds, rest periods, and track your progress over time.</p>
+            </div>
+            <div class="features-card">
+                <h3>Statistics</h3>
+                <p>View your total sessions, rounds, and performance improvements.</p>
+            </div>
+        </div>
+    </section>
+    <section class="stats">
+        <h2 class="stats-title">Your Progress</h2>
+        <p class="stats-subtitle">
+            Track your consistency and see your improvements over time. 
+        </p>
+        <div class="stats-container">
+            <div class="stats-card">
+                <h3>24</h3>
+                <p>Total Sessions</p>
+            </div>
+            <div class="stats-card">
+                <h3>180</h3>
+                <p>Total Rounds</p>
+            </div>
+            <div class="stats-card">
+                <h3>36h</h3>
+                <p>Training Hours</p>
+            </div>
+            <div class="stats-card">
+                <h3>8500</h3>
+                <p>Calories Burned</p>
+            </div>
+        </div>
+    </section>
+    <section class="workouts">
+        <h2 class="workouts-title">Training Types</h2>
+        <p class="workouts-subtitle">
+            Choose your training style and build your fight camp step by step.
+        </p>
+        <div class="workouts-card">
+            <h3>Shadow Boxing</h3>
+            <p>Improve speed, footwork, and technique without equipment.</p>
+        </div>
+        <div class="workouts-card">
+            <h3>Heavy Bag</h3>
+            <p>Build power, endurance, and practice combinations.</p>
+        </div>
+        <div class="workouts-card">
+            <h3>Sparring</h3>
+            <p>Test your skills, timing, defense, and fight IQ.</p>
+        </div>
+        <div class="workouts-card">
+            <h3>Footwork Drill</h3>
+            <p>Work on your movement, angles, balance, and ring control.</p>
+        </div>
+        <div class="workouts-card">
+            <h3>Strength Training</h3>
+            <p>Increase explosive power and overall conditioning.</p>
+        </div>
+        <div class="workouts-card">
+            <h3>Cardio & Endurance</h3>
+            <p>Build stamina through running, skipping rope, and HIIT.</p>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Ready to Start Your Boxing Journey?</h2>
+        <p>
+            Stay consistent, track your progress, and build discipline like a real boxer.
+        </p>
+        <a href="training.html" class="btn btn-primary">Start Training Now</a>
+    </section>
+    <footer class="footer">
+        <p>@2026 Boxing Training Tracker</p>
+    </footer>
+</body>
+</html>
