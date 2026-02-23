@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Boxing Tracker</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="training.html">Training </a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="page-hero">
+        <h1>Training Sessions</h1>
+        <p>Log your session and build discipline every day.</p>
+    </section>
+    <section class="training-section">
+        <div class="training-container">
+            <div class="training-form">
+                <h2>Add Training Session</h2>
+                <div class="form-group">
+                    <label>Training Type</label>
+                    <select >
+                        <option value="Shadow Boxing">Shadow Boxing</option>
+                        <option value="Heavy Bag">Heavy Bag</option>
+                        <option value="Sparring">Sparring</option>
+                        <option value="Footwork">Footwork</option>
+                        <option value="Strength">Strength</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Rounds</label>
+                    <input type="number" placeholder="Number of Rounds"/>
+                </div>
+                <div class="form-group">
+                    <label>Duration (minutes)</label>
+                    <input type="number" placeholder="Duration in minutes"/>
+                </div>
+                <div class="form-group">
+                    <label>Intensity</label>
+                    <select>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary">Save Session</button>
+            </div>
+            <div class="recent-sessions">
+                <h2>Recent Sessions</h2>
+                <div class="session-card">
+                    <p><strong>Heavy Bag</strong> - 6 rounds - 30 mins</p>
+                </div>
+                <div class="session-card">
+                    <p><strong>Shadow Boxing</strong> - 4 rounds - 20 mins</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
